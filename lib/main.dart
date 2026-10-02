@@ -54,7 +54,7 @@ class _ProductPageState extends State<ProductPage> {
         centerTitle: true,
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
-      ), // HI SIR SI JOPAY DIAY NI AKO JUY GA CODE ANI WALAY AI2 FULLY NATURAL BORN HUMAN TALENT HAHAHAHAHAHAH
+      ), 
       body: ListView.builder(
         padding: const EdgeInsets.all(16),
         itemCount: products.length,
@@ -72,7 +72,7 @@ class _ProductPageState extends State<ProductPage> {
               title: Text(
                 product['title'],
                 style: const TextStyle(fontWeight: FontWeight.bold),
-              ), // basta mu basa raba ani kina gwapohan sa CAST. shempre dile mo labaw sa kagwapo ni Jopay <333
+              ), 
               subtitle: Text(
                 '₱${(product['price'] * 62.79).toStringAsFixed(2)}',
                 style: const TextStyle(
